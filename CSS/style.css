@@ -1,0 +1,58 @@
+div {
+  padding: 100px 30px;
+}
+
+div .header {
+  width: 600px;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  list-style: none;
+  color: blueviolet;
+  border: 0.3px solid black;
+  padding: 5px;
+}
+
+div .header .header-list {
+  margin: 10px;
+  position: relative;
+}
+
+div .header .header-list:hover {
+  display: block;
+}
+
+div .header .header-list:hover .header-none {
+  display: block;
+  position: relative;
+}
+
+div .header .header-list:hover .header-none li {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  border: 2px solid black;
+  width: 100px;
+  height: 30px;
+  padding: 0 10px;
+}
+
+div .header .header-list a {
+  text-decoration: none;
+}
+
+div .header .header-list .header-none {
+  width: 100px;
+  display: none;
+}
+
+div .header .header-list .header-none li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
